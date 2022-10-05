@@ -1,0 +1,204 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Koü Ders İntibakı</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+	<img src="fotolar/bg.jpg" class="bg" alt="" height="1080" width="1980">
+	<div id="logosayfa">
+		<div style="display: inline-flex"><img class="logo" src="fotolar/logo.png" alt="" height="100px" width="100px" style="margin: 50px;"></div>
+		<div style="display: inline-flex;font-size: 35px;"><p style="padding-top: 90px;text-align: center;color: white">KOCAELİ ÜNİVERSİTESİ BAŞVURU SİSTEMİ</p></div>
+	</div>
+	<!-- navbar -->
+    <nav>
+		<div class="logoo"><a href="anamenu.html">DERS İNTİBAKI BAŞVURUSU</a></div>
+		<ul>
+			<li>
+				<a href="#">Başvuru Yap</a>
+				<ul>
+					<li><a href="dgs.html">DGS Başvurusu</a></li>
+					<li><a href="yatay.html">Yatay Geçiş Başvurusu</a></li>
+					<li><a href="intibak.html">Ders İntibakı Başvurusu</a></li>
+					<li><a href="cap.html">Çap Başvurusu</a></li>
+					<li><a href="yazokulu.html">Yaz Okulu Başvurusu</a></li>
+				</ul>
+			</li>
+			<li><a href="bekleyen.html">Bekleyen Başvurular</a></li>
+			<li><a href="onaylanan.html">Onaylanan Başvurular</a></li>
+			<li><a href="onaylanmayan.html">Onaylanmayan Başvurular</a></li>
+		</ul>
+	</nav>
+	<!-- navbar sonu-->
+	<!-- intibak başvurusu -->
+	<div class="intibak">
+		<section class="flex-class">
+			<div class="content" style="margin-right: 200px;">
+				<div class="container" style="width: 500px;">
+					<p class="name" style="text-align:center;margin-right: 70px;">Ders İntibakı Başvurusu</p>
+					<a style="margin-left: 160px;">Öğrenci Bilgileri</a>
+					<p class="divideryatay flex-class"><span ></span></p>
+					<input type="text"    name="fullname"        id="intibak-fullname"         placeholder="Ad Soyad">
+					<input type="text"    name="number"          id="intibak-number"           placeholder="Numara">
+					<input type="text"    name="kayit"           id="intibak-kayit"            placeholder="Kayıt Türü">
+					<input type="text"    name="class"     	     id="intibak-class"            placeholder="Sınıf"><br><br>
+					<a style="margin-left: 165px;">İntibak Bilgileri</a>
+					<p class="divideryatay flex-class"><span ></span></p>
+					<input type="text"    name="intibakders"     id="intibak-intibakders"      placeholder="İntibak Edeceği Ders Planı">
+					<input type="text"    name="intibakyarıyıl"  id="intibak-intibakyarıyıl"   placeholder="İntibak Edeceği Yarıyıl"><br><br>
+					<a style="margin-left: 50px;">Devam Etmekte Olduğu Yük. Öğrt. Kurumu</a>
+					<input type="text"    name="universite"      id="intibak-universite"       placeholder="Kurum Adı">
+					<input type="text"    name="department"      id="intibak-department"       placeholder="Bölüm/Program"><br><br>
+					<a style="margin-left: 75px;">İntibak Ettireceği Yük. Öğrt. Kurumu</a>
+					<input type="text"    name="universite2"     id="intibak-universite2"      placeholder="Kurum Adı">
+					<input type="text"    name="department2"     id="intibak-department2"      placeholder="Bölüm/Program"><br><br>
+					<a style="margin-left: 165px;">Ders Seçimi</a>
+					<p class="divideryatay flex-class"><span ></span></p><br>
+					<a style="margin-left: 15px;">I. Dönem</a><br><br>
+					<a style="margin-left: 50px;">Önceki Bölümünde Başarılı Olduğu Dersler</a>
+					<input type="text"    name="ders1"     id="intibak-ders1"      placeholder="Ders/Akts">
+					<input type="text"    name="ders2"     id="intibak-ders2"      placeholder="Ders/Akts">
+					<input type="text"    name="ders3"     id="intibak-ders3"      placeholder="Ders/Akts">
+					<input type="text"    name="ders4"     id="intibak-ders4"      placeholder="Ders/Akts"><br><br>
+					<a style="margin-left: 10px;">İntibak Edeceği Bölümünde Yükümlü Olduğu Dersler</a>
+					<input type="text"    name="ders5"     id="intibak-ders5"      placeholder="Ders/Akts">
+					<input type="text"    name="ders6"     id="intibak-ders6"      placeholder="Ders/Akts">
+					<input type="text"    name="ders7"     id="intibak-ders7"      placeholder="Ders/Akts">
+					<input type="text"    name="ders8"     id="intibak-ders8"      placeholder="Ders/Akts">
+					<p class="divideryatay flex-class"><span ></span></p><br>
+					<a style="margin-left: 15px;">II. Dönem</a><br><br>
+					<a style="margin-left: 50px;">Önceki Bölümünde Başarılı Olduğu Dersler</a>
+					<input type="text"    name="ders9"     id="intibak-ders9"      placeholder="Ders/Akts">
+					<input type="text"    name="ders10"    id="intibak-ders10"     placeholder="Ders/Akts">
+					<input type="text"    name="ders11"    id="intibak-ders11"     placeholder="Ders/Akts">
+					<input type="text"    name="ders12"    id="intibak-ders12"     placeholder="Ders/Akts"><br><br>
+					<a style="margin-left: 10px;">İntibak Edeceği Bölümünde Yükümlü Olduğu Dersler</a>
+					<input type="text"    name="ders13"    id="intibak-ders13"     placeholder="Ders/Akts">
+					<input type="text"    name="ders14"    id="intibak-ders14"     placeholder="Ders/Akts">
+					<input type="text"    name="ders15"    id="intibak-ders15"     placeholder="Ders/Akts">
+					<input type="text"    name="ders16"    id="intibak-ders16"     placeholder="Ders/Akts">
+					<p class="divideryatay flex-class"><span ></span></p><br>
+					<a style="margin-left: 15px;">III. Dönem</a><br><br>
+					<a style="margin-left: 50px;">Önceki Bölümünde Başarılı Olduğu Dersler</a>
+					<input type="text"    name="ders17"    id="intibak-ders17"     placeholder="Ders/Akts">
+					<input type="text"    name="ders18"    id="intibak-ders18"     placeholder="Ders/Akts">
+					<input type="text"    name="ders19"    id="intibak-ders19"     placeholder="Ders/Akts">
+					<input type="text"    name="ders20"    id="intibak-ders20"     placeholder="Ders/Akts"><br><br>
+					<a style="margin-left: 10px;">İntibak Edeceği Bölümünde Yükümlü Olduğu Dersler</a>
+					<input type="text"    name="ders21"    id="intibak-ders21"     placeholder="Ders/Akts">
+					<input type="text"    name="ders22"    id="intibak-ders22"     placeholder="Ders/Akts">
+					<input type="text"    name="ders23"    id="intibak-ders23"     placeholder="Ders/Akts">
+					<input type="text"    name="ders24"    id="intibak-ders24"     placeholder="Ders/Akts">
+					<p class="divideryatay flex-class"><span ></span></p><br>
+					<a style="margin-left: 15px;">VI. Dönem</a><br><br>
+					<a style="margin-left: 50px;">Önceki Bölümünde Başarılı Olduğu Dersler</a>
+					<input type="text"    name="ders25"    id="intibak-ders25"     placeholder="Ders/Akts">
+					<input type="text"    name="ders26"    id="intibak-ders26"     placeholder="Ders/Akts">
+					<input type="text"    name="ders27"    id="intibak-ders27"     placeholder="Ders/Akts">
+					<input type="text"    name="ders28"    id="intibak-ders28"     placeholder="Ders/Akts"><br><br>
+					<a style="margin-left: 10px;">İntibak Edeceği Bölümünde Yükümlü Olduğu Dersler</a>
+					<input type="text"    name="ders29"    id="intibak-ders29"     placeholder="Ders/Akts">
+					<input type="text"    name="ders30"    id="intibak-ders30"     placeholder="Ders/Akts">
+					<input type="text"    name="ders31"    id="intibak-ders31"     placeholder="Ders/Akts">
+					<input type="text"    name="ders32"    id="intibak-ders32"     placeholder="Ders/Akts">
+					<p class="divideryatay flex-class"><span ></span></p><br>
+					<a style="margin-left: 15px;">V. Dönem</a><br><br>
+					<a style="margin-left: 50px;">Önceki Bölümünde Başarılı Olduğu Dersler</a>
+					<input type="text"    name="ders33"     id="intibak-ders33"      placeholder="Ders/Akts">
+					<input type="text"    name="ders34"     id="intibak-ders34"      placeholder="Ders/Akts">
+					<input type="text"    name="ders35"     id="intibak-ders35"      placeholder="Ders/Akts">
+					<input type="text"    name="ders36"     id="intibak-ders36"      placeholder="Ders/Akts"><br><br>
+					<a style="margin-left: 10px;">İntibak Edeceği Bölümünde Yükümlü Olduğu Dersler</a>
+					<input type="text"    name="ders37"     id="intibak-ders37"      placeholder="Ders/Akts">
+					<input type="text"    name="ders38"     id="intibak-ders38"      placeholder="Ders/Akts">
+					<input type="text"    name="ders39"     id="intibak-ders39"      placeholder="Ders/Akts">
+					<input type="text"    name="ders40"     id="intibak-ders40"      placeholder="Ders/Akts">
+					<p class="divideryatay flex-class"><span ></span></p><br>
+					<a style="margin-left: 15px;">VI. Dönem</a><br><br>
+					<a style="margin-left: 50px;">Önceki Bölümünde Başarılı Olduğu Dersler</a>
+					<input type="text"    name="ders41"     id="intibak-ders41"      placeholder="Ders/Akts">
+					<input type="text"    name="ders42"    id="intibak-ders42"     placeholder="Ders/Akts">
+					<input type="text"    name="ders43"    id="intibak-ders43"     placeholder="Ders/Akts">
+					<input type="text"    name="ders44"    id="intibak-ders44"     placeholder="Ders/Akts"><br><br>
+					<a style="margin-left: 10px;">İntibak Edeceği Bölümünde Yükümlü Olduğu Dersler</a>
+					<input type="text"    name="ders45"    id="intibak-ders45"     placeholder="Ders/Akts">
+					<input type="text"    name="ders46"    id="intibak-ders46"     placeholder="Ders/Akts">
+					<input type="text"    name="ders47"    id="intibak-ders47"     placeholder="Ders/Akts">
+					<input type="text"    name="ders48"    id="intibak-ders48"     placeholder="Ders/Akts">
+					<p class="divideryatay flex-class"><span ></span></p><br>
+					<a style="margin-left: 15px;">VII. Dönem</a><br><br>
+					<a style="margin-left: 50px;">Önceki Bölümünde Başarılı Olduğu Dersler</a>
+					<input type="text"    name="ders49"    id="intibak-ders49"     placeholder="Ders/Akts">
+					<input type="text"    name="ders50"    id="intibak-ders50"     placeholder="Ders/Akts">
+					<input type="text"    name="ders51"    id="intibak-ders51"     placeholder="Ders/Akts">
+					<input type="text"    name="ders52"    id="intibak-ders52"     placeholder="Ders/Akts"><br><br>
+					<a style="margin-left: 10px;">İntibak Edeceği Bölümünde Yükümlü Olduğu Dersler</a>
+					<input type="text"    name="ders53"    id="intibak-ders53"     placeholder="Ders/Akts">
+					<input type="text"    name="ders54"    id="intibak-ders54"     placeholder="Ders/Akts">
+					<input type="text"    name="ders55"    id="intibak-ders55"     placeholder="Ders/Akts">
+					<input type="text"    name="ders56"    id="intibak-ders56"     placeholder="Ders/Akts">
+					<p class="divideryatay flex-class"><span ></span></p><br>
+					<a style="margin-left: 15px;">VIII. Dönem</a><br><br>
+					<a style="margin-left: 50px;">Önceki Bölümünde Başarılı Olduğu Dersler</a>
+					<input type="text"    name="ders57"    id="intibak-ders57"     placeholder="Ders/Akts">
+					<input type="text"    name="ders58"    id="intibak-ders58"     placeholder="Ders/Akts">
+					<input type="text"    name="ders59"    id="intibak-ders59"     placeholder="Ders/Akts">
+					<input type="text"    name="ders60"    id="intibak-ders60"     placeholder="Ders/Akts"><br><br>
+					<a style="margin-left: 10px;">İntibak Edeceği Bölümünde Yükümlü Olduğu Dersler</a>
+					<input type="text"    name="ders61"    id="intibak-ders61"     placeholder="Ders/Akts">
+					<input type="text"    name="ders62"    id="intibak-ders62"     placeholder="Ders/Akts">
+					<input type="text"    name="ders63"    id="intibak-ders63"     placeholder="Ders/Akts">
+					<input type="text"    name="ders64"    id="intibak-ders64"     placeholder="Ders/Akts">
+					<p class="divideryatay flex-class"><span ></span></p>
+					<div id="logosayfaa">
+						<div style="margin-left: 150px"><input style="display: inline-flex" type="checkbox" name="onaylama" id="onaylama" ></div>
+						<div ><p style="display: inline-flex;padding-left: 15px;">onaylıyorum</p></div>
+					</div><br><br>
+					<p>
+						Bilgileriniz eksiksiz doldurduktan sonra başvuruyu indirip imzalı çıktısınız gerekli belgeler kısmından sisteme yükleyiniz. Bu bilgileri sağlamayan başvurular değerlendirmeye alınmayacaktır
+					</p><br>
+					<button id="Cap-indir-button" class="btn">Başvuru Formunu İndir</button><br>
+					<p class="divideryatay flex-class"><span></span></p>
+					<button id="Cap-yukle-button" class="btn">Başvuru formunu Yükle</button><br>
+				</div>
+			</div>
+		</section>
+	</div>
+	<!-- intibak başvurusu sonu-->
+</body>
+	<!-- footer -->
+		<div class="fContent" style="margin-top: 5000px;">	
+			<div class="sutun">
+				<h3>Bize Ulaşın</h3>
+				<p class="divider flex-class"><span></span></p>
+				<ul class="socials">
+				  	<li><a href="https://www.facebook.com/ahmet.yok.90281943/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="https://www.instagram.com/akyildizonurr/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="https://www.youtube.com/channel/UCtOI1yvFKr2_9s5vRMZ5aHg" target="_blank"><i class="fa fa-youtube"></i></a></li>
+					<li><a href="https://github.com/onurakyildiz58" target="_blank"><i class="fa fa-github"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/onur-akyildiz-096016206/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+		        </ul>
+				<p><a href="mailto: onurakyildi41@gmail.com">mail adresi</a></p><br>
+				<p>+90(535) 424 5383</p>
+			</div>
+			<div class="sutun">
+				 <h3>konum</h3>	
+			     <p class="divider flex-class"><span></span></p><br>
+				 <p>
+					 Kabaoğlu, Baki Komsuoğlu bulvarı No:515, Umuttepe, 41001 İzmit/Kocaeli
+				 </p>
+				 <p>
+					  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48297.264694438076!2d29.949988536699713!3d40.83720911681787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cb5badf629fe45%3A0xc81fa849234e8755!2sKocaeli%20%C3%9Cniversitesi!5e0!3m2!1str!2str!4v1637714873370!5m2!1str!2str" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				 </p>
+				 
+			</div>
+		</div>
+		<div class="footerbottom">
+			<p>&copy 2021 Tüm hakları saklıdır, <strong>Batuhan Rapata Berk Akın ve Onur Akyıldız </strong> tarafından yapılmıştır</p>
+		</div>
+	<!-- footer sonu-->
+</html>
